@@ -1,0 +1,66 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+/* Keep reset CSS to one minified line */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* base styles */
+
+/* minor third http://www.modularscale.com/?18&px&1.2&web&text */
+
+html {
+  font-size: 1.125em; /* 18px */
+  line-height: 1.222em; /* 22px */
+  color: #2FE;
+  background-color: #222;
+  padding: 1.222em; /* 22px */
+}
+
+h1 {
+  font-size: 1.728em; /* 31.104px */
+  line-height: 1.415em; /* 44px @ 31.104px em */
+}
+
+/* layout styles */
+
+input,
+text,
+email {
+  width: 100%;
+  padding: 1.222em; /* 22px */
+  border-radius: 0.407em; /* 7.33px */
+  border-style: none;
+  font-size: 1.222em;
+}
+
+label {
+  float: left;
+  color: #2FE;
+}
+
+label,
+name,
+email {
+  padding-bottom: 1.222em;
+}
+
+.join {
+  font-size: 1.125em; /* 18px */
+  font-weight: 500;
+  color: #222;
+  background-color: #2FE;
+  transition: background-color 0.5s;
+}
+
+.push:hover {
+  background-color: #2FEE;
+}
+
+.button {
+  padding: 0.407em;
+  padding-top: 2.444em; /* 44px */
+  width: 10.998em; /* 198px */
+}
