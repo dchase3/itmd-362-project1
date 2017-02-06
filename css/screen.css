@@ -26,14 +26,19 @@ h1 {
 
 /* layout styles */
 
+.register {
+  width: 50%;
+  margin: 0 auto;
+}
+
 input,
 text,
 email {
-  width: 100%;
-  padding: 1.222em; /* 22px */
+  width: 90%;
+  padding: 1em;
   border-radius: 0.407em; /* 7.33px */
   border-style: none;
-  font-size: 1.222em;
+  font-size: 1em;
 }
 
 label {
@@ -44,7 +49,9 @@ label {
 label,
 name,
 email {
-  padding-bottom: 1.222em;
+  padding-top: 1.444em;
+  padding-bottom: 1.444em;
+  padding-right: 0.407em;
 }
 
 .join {
@@ -56,11 +63,15 @@ email {
 }
 
 .push:hover {
-  background-color: #2FEE;
+  background-color: #222;
 }
 
 .button {
   padding: 0.407em;
   padding-top: 2.444em; /* 44px */
   width: 10.998em; /* 198px */
+}
+
+p {
+  padding-top: 1.728em;
 }
