@@ -15,13 +15,16 @@ html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px */
   color: #2FE;
-  background-color: #222;
-  padding: 1.222em; /* 22px */
+  background-color: #000000;
+  padding: 0; /* 22px */
 }
 
 h1 {
   font-size: 1.728em; /* 31.104px */
   line-height: 1.415em; /* 44px @ 31.104px em */
+  padding-bottom: 2.1225em;
+  padding: 0.7075em;
+  font-family: Impact, Charcoal, sans-serif;
 }
 
 /* layout styles */
@@ -36,14 +39,25 @@ text,
 email {
   width: 90%;
   padding: 1em;
-  border-radius: 0.407em; /* 7.33px */
+  border-radius: 1.407em; /* 7.33px */
   border-style: none;
   font-size: 1em;
+  color: #800000;
 }
 
 label {
+  padding-bottom: 1.444em;
   float: left;
   color: #2FE;
+  padding: 1.222em;
+}
+input {
+  padding-left: 1.222em;
+}
+
+label,
+input {
+  display: inline-block;
 }
 
 label,
@@ -58,20 +72,38 @@ email {
   font-size: 1.125em; /* 18px */
   font-weight: 500;
   color: #222;
-  background-color: #2FE;
-  transition: background-color 0.5s;
+  background: url(../img/light-blue.png);
+  transition: background 0.5s;
 }
 
-.push:hover {
-  background-color: #222;
+.join:hover {
+  color: #000000;
+  background: url(../img/light-green.png);;
 }
 
 .button {
   padding: 0.407em;
   padding-top: 2.444em; /* 44px */
   width: 10.998em; /* 198px */
+  padding-left: 1.222em;
 }
 
 p {
   padding-top: 1.728em;
+  padding-left: 1.222em;
+}
+
+header {
+  color: #DDD;
+  background: url(../img/starwarscover.jpg) #222;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
 }
