@@ -42,8 +42,9 @@ email {
   border-radius: 1.407em; /* 7.33px */
   border-style: none;
   font-size: 1em;
-  color: #800000;
+  color: #010101;
 }
+
 
 label {
   padding-bottom: 1.444em;
@@ -68,6 +69,14 @@ email {
   padding-right: 0.407em;
 }
 
+.names {
+  background: url(../img/light-purple.png);
+}
+
+.emails {
+  background: url(../img/light-red.png);
+}
+
 .join {
   font-size: 1.125em; /* 18px */
   font-weight: 500;
@@ -78,7 +87,7 @@ email {
 
 .join:hover {
   color: #000000;
-  background: url(../img/light-green.png);;
+  background: url(../img/light-green.png);
 }
 
 .button {

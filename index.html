@@ -14,17 +14,17 @@
     </header>
     
     <main class="content">
-      <form action="#null" method="post" class=register">
+      <form id="regester" action="#null" method="post" class="signup">
         <div class="name">
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Han Solo" required/>
+          <input type="text" id="name" name="name" placeholder="Han Solo" class="names" pattern="^[A-Za-z]+\s+[A-Za-z]+$" />
         </div>
         <div class="email">
           <label for="email">Email:</label>
-          <input type="email" id="email" email="email" placeholder="example@gmail.com" required />
+          <input type="email" id="email" email="email" placeholder="example@gmail.com" class="emails" pattern="^.+@.+$" />
         </div>
         <div class="button">
-          <input type="submit" value="Join Now!" class="join"/>
+          <input type="submit" name="reg" value="Join Now!" class="join"/>
         </div>
       </form>
     </main>
@@ -32,5 +32,9 @@
     <footer>
       <p>Site Designed by Dennis</p>
     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js"></script>
+
   </body>
 </html>
