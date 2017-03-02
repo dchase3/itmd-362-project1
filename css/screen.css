@@ -48,7 +48,6 @@ email {
 
 label {
   padding-bottom: 1.444em;
-  float: left;
   color: #2FE;
   padding: 1.222em;
 }
@@ -58,6 +57,7 @@ input {
 
 label,
 input {
+  text-align: center;
   display: inline-block;
 }
 
